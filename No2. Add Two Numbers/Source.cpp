@@ -19,9 +19,8 @@ int main()
 	l21->next = l22;
 	//l22->next = l23;
 
-	Solution *solution = new Solution();
 	ListNode *result;
-	result = solution->addTwoNumbers(l11, l21);
+	result = Solution::addTwoNumbers(l11, l21);
 	while (result != NULL)
 	{
 		cout << result->val << " ";
