@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No2. Add Two Numbers", "No2
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No3. Longest Substring Without Repeating Characters", "No3. Longest Substring Without Repeating Characters\No3. Longest Substring Without Repeating Characters.vcxproj", "{354A8D01-163E-4E50-94A4-70B5B20E2CE4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No4. Median of Two Sorted Arrays", "No4. Median of Two Sorted Arrays\No4. Median of Two Sorted Arrays.vcxproj", "{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{354A8D01-163E-4E50-94A4-70B5B20E2CE4}.Release|x64.Build.0 = Release|x64
 		{354A8D01-163E-4E50-94A4-70B5B20E2CE4}.Release|x86.ActiveCfg = Release|Win32
 		{354A8D01-163E-4E50-94A4-70B5B20E2CE4}.Release|x86.Build.0 = Release|Win32
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Debug|x64.ActiveCfg = Debug|x64
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Debug|x64.Build.0 = Debug|x64
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Debug|x86.ActiveCfg = Debug|Win32
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Debug|x86.Build.0 = Debug|Win32
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Release|x64.ActiveCfg = Release|x64
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Release|x64.Build.0 = Release|x64
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Release|x86.ActiveCfg = Release|Win32
+		{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
