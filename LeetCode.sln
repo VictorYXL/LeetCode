@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2005
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No1. Two Sum", "No1. Two Sum\No1. Two Sum.vcxproj", "{A2403BA0-86FA-4BE7-A994-AD121DEFEB3A}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No4. Median of Two Sorted Arrays", "No4. Median of Two Sorted Arrays\No4. Median of Two Sorted Arrays.vcxproj", "{1BEA33D2-F37B-4CDB-9D5A-677EC70EBA74}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No5. Longest Palindromic Substring", "No5. Longest Palindromic Substring\No5. Longest Palindromic Substring.vcxproj", "{FB845DB8-FB9B-4C47-B0F0-A00BC9DE20F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No6. ZigZag Conversion", "No6. ZigZag Conversion\No6. ZigZag Conversion.vcxproj", "{F6477229-136A-49D5-AF44-28C66F574680}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{FB845DB8-FB9B-4C47-B0F0-A00BC9DE20F3}.Release|x64.Build.0 = Release|x64
 		{FB845DB8-FB9B-4C47-B0F0-A00BC9DE20F3}.Release|x86.ActiveCfg = Release|Win32
 		{FB845DB8-FB9B-4C47-B0F0-A00BC9DE20F3}.Release|x86.Build.0 = Release|Win32
+		{F6477229-136A-49D5-AF44-28C66F574680}.Debug|x64.ActiveCfg = Debug|x64
+		{F6477229-136A-49D5-AF44-28C66F574680}.Debug|x64.Build.0 = Debug|x64
+		{F6477229-136A-49D5-AF44-28C66F574680}.Debug|x86.ActiveCfg = Debug|Win32
+		{F6477229-136A-49D5-AF44-28C66F574680}.Debug|x86.Build.0 = Debug|Win32
+		{F6477229-136A-49D5-AF44-28C66F574680}.Release|x64.ActiveCfg = Release|x64
+		{F6477229-136A-49D5-AF44-28C66F574680}.Release|x64.Build.0 = Release|x64
+		{F6477229-136A-49D5-AF44-28C66F574680}.Release|x86.ActiveCfg = Release|Win32
+		{F6477229-136A-49D5-AF44-28C66F574680}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
