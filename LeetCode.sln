@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No1. Two Sum", "No1. Two Sum\No1. Two Sum.vcxproj", "{A2403BA0-86FA-4BE7-A994-AD121DEFEB3A}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No9. Palindrome Number", "No9. Palindrome Number\No9. Palindrome Number.vcxproj", "{D5AA0580-0E20-45DB-9322-8D104593014E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No10. Regular Expression Matching", "No10. Regular Expression Matching\No10. Regular Expression Matching.vcxproj", "{3EB729E7-DD6C-43E6-9188-95C774C17EE5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No11. Container With Most Water", "No11. Container With Most Water\No11. Container With Most Water.vcxproj", "{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,6 +195,22 @@ Global
 		{3EB729E7-DD6C-43E6-9188-95C774C17EE5}.Release|x64.ActiveCfg = Release|Win32
 		{3EB729E7-DD6C-43E6-9188-95C774C17EE5}.Release|x86.ActiveCfg = Release|Win32
 		{3EB729E7-DD6C-43E6-9188-95C774C17EE5}.Release|x86.Build.0 = Release|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|Win32.Build.0 = Debug|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|x64.ActiveCfg = Debug|x64
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|x64.Build.0 = Debug|x64
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Debug|x86.Build.0 = Debug|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|Win32.ActiveCfg = Release|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|Win32.Build.0 = Release|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|x64.ActiveCfg = Release|x64
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|x64.Build.0 = Release|x64
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|x86.ActiveCfg = Release|Win32
+		{B80F8668-7E2B-43A9-9556-B0BC128AE0CF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
