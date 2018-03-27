@@ -10,4 +10,5 @@ int main()
 	cout << Solution::lengthOfLongestSubstring("aa") << endl;
 	cout << Solution::lengthOfLongestSubstring("aa") << endl;
 	cout << Solution::lengthOfLongestSubstring("c") << endl;
+	return 0;
 }

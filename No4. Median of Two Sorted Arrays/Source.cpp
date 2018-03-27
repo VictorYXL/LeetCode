@@ -11,4 +11,5 @@ int main()
 	nums2.push_back(5);
 	nums2.push_back(6);
 	std::cout << Solution::findMedianSortedArrays(nums1, nums2);
+	return 0;
 }

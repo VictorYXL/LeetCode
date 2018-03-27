@@ -12,4 +12,5 @@ int main()
 	strs.push_back("abcde");
 	strs.push_back("abcderf");
 	cout << Solution::longestCommonPrefix(strs) << endl;
+	return 0;
 }

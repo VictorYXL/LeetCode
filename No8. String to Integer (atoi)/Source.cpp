@@ -8,4 +8,5 @@ int main()
 	cout << Solution::myAtoi("1212121212121211212122") << endl;
 	cout << Solution::myAtoi(" -0012a42") << endl;
 	cout << Solution::myAtoi("+1") << endl;
+	return 0;
 }

@@ -8,4 +8,5 @@ int main()
 	cout << Solution::longestPalindrome("aaaa") << endl;
 	cout << Solution::longestPalindrome("1aa1") << endl;
 	cout << Solution::longestPalindrome("1aaf") << endl;
+	return 0;
 }

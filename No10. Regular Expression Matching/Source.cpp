@@ -13,4 +13,5 @@ int main()
 	//cout << Solution::isMatch("abc", ".*") << endl;
 	//cout << Solution::isMatch("abc", ".*c") << endl;
 	//cout << Solution::isMatch("ab", ".*c") << endl;
+	return 0;
 }
