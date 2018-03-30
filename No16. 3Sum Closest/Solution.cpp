@@ -1,5 +1,4 @@
-#include <algorithm>
-#include <map>
+#include <vector>
 #include "Solution.h"
 
 int Solution::threeSumClosest(vector<int>& nums, int target)
