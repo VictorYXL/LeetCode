@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No18. 4Sum", "No18. 4Sum\No
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No19. Remove Nth Node From End of List", "No19. Remove Nth Node From End of List\No19. Remove Nth Node From End of List.vcxproj", "{8732526F-CA08-4889-9042-83D1D7F59944}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No20. Valid Parentheses", "No20. Valid Parentheses\No20. Valid Parentheses.vcxproj", "{C38F209C-6DEE-493F-8C0B-482728041F2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -355,6 +357,22 @@ Global
 		{8732526F-CA08-4889-9042-83D1D7F59944}.Release|x64.Build.0 = Release|x64
 		{8732526F-CA08-4889-9042-83D1D7F59944}.Release|x86.ActiveCfg = Release|Win32
 		{8732526F-CA08-4889-9042-83D1D7F59944}.Release|x86.Build.0 = Release|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|Win32.Build.0 = Debug|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|x64.ActiveCfg = Debug|x64
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|x64.Build.0 = Debug|x64
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Debug|x86.Build.0 = Debug|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|Win32.ActiveCfg = Release|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|Win32.Build.0 = Release|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|x64.ActiveCfg = Release|x64
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|x64.Build.0 = Release|x64
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|x86.ActiveCfg = Release|Win32
+		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
