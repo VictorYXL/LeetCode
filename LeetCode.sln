@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No19. Remove Nth Node From 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No20. Valid Parentheses", "No20. Valid Parentheses\No20. Valid Parentheses.vcxproj", "{C38F209C-6DEE-493F-8C0B-482728041F2C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No21. Merge Two Sorted Lists", "No21. Merge Two Sorted Lists\No21. Merge Two Sorted Lists.vcxproj", "{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -373,6 +375,22 @@ Global
 		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|x64.Build.0 = Release|x64
 		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|x86.ActiveCfg = Release|Win32
 		{C38F209C-6DEE-493F-8C0B-482728041F2C}.Release|x86.Build.0 = Release|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|Win32.Build.0 = Debug|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|x64.ActiveCfg = Debug|x64
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|x64.Build.0 = Debug|x64
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|x86.ActiveCfg = Debug|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Debug|x86.Build.0 = Debug|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|Win32.ActiveCfg = Release|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|Win32.Build.0 = Release|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|x64.ActiveCfg = Release|x64
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|x64.Build.0 = Release|x64
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|x86.ActiveCfg = Release|Win32
+		{D26BB51D-5FE8-42EE-9A05-C3947CCB770F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
