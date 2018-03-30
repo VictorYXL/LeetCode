@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No16. 3Sum Closest", "No16.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No17. Letter Combinations of a Phone Number", "No17. Letter Combinations of a Phone Number\No17. Letter Combinations of a Phone Number.vcxproj", "{840CFD1E-F3F5-4697-BE99-994A07987663}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No18. 4Sum", "No18. 4Sum\No18. 4Sum.vcxproj", "{7CA6D381-C0E6-4B98-A985-6EDD24593042}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -319,6 +321,22 @@ Global
 		{840CFD1E-F3F5-4697-BE99-994A07987663}.Release|x64.Build.0 = Release|x64
 		{840CFD1E-F3F5-4697-BE99-994A07987663}.Release|x86.ActiveCfg = Release|Win32
 		{840CFD1E-F3F5-4697-BE99-994A07987663}.Release|x86.Build.0 = Release|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|Win32.Build.0 = Debug|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|x64.ActiveCfg = Debug|x64
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|x64.Build.0 = Debug|x64
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|x86.ActiveCfg = Debug|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Debug|x86.Build.0 = Debug|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|Win32.ActiveCfg = Release|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|Win32.Build.0 = Release|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|x64.ActiveCfg = Release|x64
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|x64.Build.0 = Release|x64
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|x86.ActiveCfg = Release|Win32
+		{7CA6D381-C0E6-4B98-A985-6EDD24593042}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,10 @@
 vector<vector<int>> Solution::threeSum(vector<int>& nums)
 {
 	vector<vector<int>> solution;
+	if (nums.size() < 3)
+	{
+		return solution;
+	}
 	std::sort(nums.begin(), nums.end());
 	map < vector<int>, bool> exist;
 
