@@ -11,5 +11,5 @@ struct ListNode
 class Solution 
 {
 public:
-    ListNode static * mergeKLists(vector<ListNode*>& lists);
+    ListNode static * swapPairs(ListNode* head);
 };

@@ -9,4 +9,3 @@ public:
 private:
     vector<string> static subGenerateParenthesis(string curParenthesis, int n);
 };
-void a();
