@@ -2,7 +2,8 @@
 #include <vector>
 using namespace std;
 
-class Solution {
+class Solution 
+{
 public:
 	vector<vector<int>> static threeSum(vector<int>& nums);
 

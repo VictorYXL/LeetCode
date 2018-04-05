@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-class Solution {
+class Solution 
+{
 public:
 	bool static isMatch(string s, string p);
 

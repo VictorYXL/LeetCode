@@ -2,7 +2,8 @@
 #include <string>
 #include <vector>
 using namespace std;
-class Solution {
+class Solution 
+{
 public:
     vector<string> static generateParenthesis(int n);
 private:

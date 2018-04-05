@@ -3,7 +3,8 @@
 #include <string>
 using namespace std;
 
-class Solution {
+class Solution 
+{
 public:
 	string static longestCommonPrefix(vector<string>& strs);
 
