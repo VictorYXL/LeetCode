@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No35. Search Insert Positio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No36. Valid Sudoku", "No36. Valid Sudoku\No36. Valid Sudoku.vcxproj", "{6300127B-B97A-4065-A2BB-399078C06183}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "No37. Sudoku Solver", "No37. Sudoku Solver\No37. Sudoku Solver.vcxproj", "{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -661,6 +663,22 @@ Global
 		{6300127B-B97A-4065-A2BB-399078C06183}.Release|x64.Build.0 = Release|x64
 		{6300127B-B97A-4065-A2BB-399078C06183}.Release|x86.ActiveCfg = Release|Win32
 		{6300127B-B97A-4065-A2BB-399078C06183}.Release|x86.Build.0 = Release|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|Win32.Build.0 = Debug|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|x64.ActiveCfg = Debug|x64
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|x64.Build.0 = Debug|x64
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|x86.ActiveCfg = Debug|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Debug|x86.Build.0 = Debug|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|Win32.ActiveCfg = Release|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|Win32.Build.0 = Release|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|x64.ActiveCfg = Release|x64
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|x64.Build.0 = Release|x64
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|x86.ActiveCfg = Release|Win32
+		{692216B1-57BB-4A21-A4F2-8AF0FAFADD18}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
