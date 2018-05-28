@@ -23,7 +23,6 @@
     <ProjectGuid>{8E3D3D84-B2F1-470A-8BC9-2B9AA50A9826}</ProjectGuid>
     <RootNamespace>My28ImplementstrStr</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
-    <ProjectName>No28. Implement strStr()</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
