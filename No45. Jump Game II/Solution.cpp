@@ -1,7 +1,4 @@
 #include "Solution.h"
-#include <iostream>
-#include <algorithm>
-using namespace std;
 
 int Solution::jump(vector<int>& nums)
 {
