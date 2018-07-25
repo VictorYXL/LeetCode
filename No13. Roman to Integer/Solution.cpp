@@ -1,5 +1,6 @@
 #include "Solution.h"
-
+#include <map>
+using namespace std;
 int Solution::romanToInt(string s)
 {
 	map<char, int> m = 
