@@ -7,10 +7,6 @@ int Solution::lengthOfLastWord(string s)
     {
         n--;
     }
-    if (n < 0)
-    {
-        return 0;
-    }
     while (n >= 0 && s[n] != ' ')
     {
         n--;
