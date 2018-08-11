@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="No1. Two Sum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No2. Add Two Numbers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No3. Longest Substring Without Repeating Characters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No4. Median of Two Sorted Arrays.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No5. Longest Palindromic Substring.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No6. ZigZag Conversion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No7. Reverse Integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No8. String to Integer (atoi).hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No9. Palindrome Number.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No10. Regular Expression Matching.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No11. Container With Most Water.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No12. Integer to Roman.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No13. Roman to Integer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No14. Longest Common Prefix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No16. 3Sum Closest.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No17. Letter Combinations of a Phone Number.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No18. 4Sum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No19. Remove Nth Node From End of List.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No20. Valid Parentheses.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No21. Merge Two Sorted Lists.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No22. Generate Parentheses.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No23. Merge k Sorted Lists.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No24. Swap Nodes in Pairs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No25. Reverse Nodes in k-Group.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No27. Remove Element.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No28. Implement strStr().hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No29. Divide Two Integers.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No30. Substring with Concatenation of All Words.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No26. Remove Duplicates from Sorted Array.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No31. Next Permutation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No32. Longest Valid Parentheses.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No33. Search in Rotated Sorted Array.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No34. Search for a Range.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No35. Search Insert Position.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No39. Combination Sum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No36. Valid Sudoku.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No37. Sudoku Solver.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No38. Count and Say.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No40. Combination Sum II.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No41. First Missing Positive.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No42. Trapping Rain Water.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No43. Multiply Strings.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No44. Wildcard Matching.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No45. Jump Game II.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No49. Group Anagrams.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No50. Pow(x, n).hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No46. Permutations.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No47. Permutations II.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No48. Rotate Image.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No51. N-Queens.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No52. N-Queens II.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No53. Maximum Subarray.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No54. Spiral Matrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No55. Jump Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No56. Merge Intervals.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No57. Insert Interval.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No58. Length of Last Word.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No59. Spiral Matrix II.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No60. Permutation Sequence.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No61. Rotate List.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No62. Unique Paths.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No63. Unique Paths II.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No64. Minimum Path Sum.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No66. Plus One.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No68. Text Justification.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="No67. Add Binary.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
