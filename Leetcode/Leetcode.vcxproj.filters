@@ -216,6 +216,9 @@
     <ClInclude Include="No69. Sqrt(x).hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="No70. Climbing Stairs.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

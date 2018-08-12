@@ -1,4 +1,4 @@
-#include "No69. Sqrt(x).hpp"
+#include "No70. Climbing Stairs.hpp"
 int main()
 {
     Test();
