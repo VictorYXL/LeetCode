@@ -1,4 +1,4 @@
-#include "No71. Simplify Path.hpp"
+#include "No72. Edit Distance.hpp"
 int main()
 {
     Test();
