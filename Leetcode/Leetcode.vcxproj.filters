@@ -225,6 +225,9 @@
     <ClInclude Include="No72. Edit Distance.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="No73. Set Matrix Zeroes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">

@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="No73. Set Matrix Zeroes.hpp" />
     <ClInclude Include="No1. Two Sum.hpp" />
     <ClInclude Include="No10. Regular Expression Matching.hpp" />
     <ClInclude Include="No11. Container With Most Water.hpp" />
