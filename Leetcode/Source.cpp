@@ -1,4 +1,4 @@
-#include "No70. Climbing Stairs.hpp"
+#include "No71. Simplify Path.hpp"
 int main()
 {
     Test();

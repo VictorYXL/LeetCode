@@ -189,6 +189,7 @@
     <ClInclude Include="No69. Sqrt(x).hpp" />
     <ClInclude Include="No7. Reverse Integer.hpp" />
     <ClInclude Include="No70. Climbing Stairs.hpp" />
+    <ClInclude Include="No71. Simplify Path.hpp" />
     <ClInclude Include="No8. String to Integer (atoi).hpp" />
     <ClInclude Include="No9. Palindrome Number.hpp" />
   </ItemGroup>
