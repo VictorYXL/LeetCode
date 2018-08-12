@@ -186,6 +186,7 @@
     <ClInclude Include="No66. Plus One.hpp" />
     <ClInclude Include="No67. Add Binary.hpp" />
     <ClInclude Include="No68. Text Justification.hpp" />
+    <ClInclude Include="No69. Sqrt(x).hpp" />
     <ClInclude Include="No7. Reverse Integer.hpp" />
     <ClInclude Include="No8. String to Integer (atoi).hpp" />
     <ClInclude Include="No9. Palindrome Number.hpp" />

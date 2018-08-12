@@ -213,6 +213,9 @@
     <ClInclude Include="No67. Add Binary.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="No69. Sqrt(x).hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
