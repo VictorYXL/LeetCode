@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    static string minWindow(string s, string t)
+    string minWindow(string s, string t)
     {
         int best_begin = 0, best_length = s.size() + 1, begin = 0, end = 0;
         int letter_count[128], count = t.size();
@@ -51,7 +51,7 @@ public:
 void Test()
 {
     Solution solution;
-    string res = Solution::minWindow("ab", "a");
+    string res = solution.minWindow("ab", "a");
     cout << res;
     return;
 }

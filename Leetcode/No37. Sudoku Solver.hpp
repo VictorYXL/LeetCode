@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static bool simulateSingle(vector<vector<char>>& board, int i, int j)
+    bool simulateSingle(vector<vector<char>>& board, int i, int j)
     {
         bool possibleValue[10];
         int index;
@@ -55,7 +55,7 @@ public:
                 int j1 = j + 1;
                 int i1 = j1 / 9;
                 j1 %= 9;
-                if (Solution::simulateSingle(board, i1, j1))
+                if (solution.simulateSingle(board, i1, j1))
                 {
                     return true;
                 }
@@ -64,9 +64,9 @@ public:
         board[i][j] = '.';
         return false;
     }
-    static void solveSudoku(vector<vector<char>>& board)
+    void solveSudoku(vector<vector<char>>& board)
     {
-        Solution::simulateSingle(board, 0, 0);
+        solution.simulateSingle(board, 0, 0);
     }
 };
 void Test()
@@ -107,7 +107,7 @@ void Test()
             }
             board.push_back(t);
         }
-    Solution::solveSudoku(board);
+    solution.solveSudoku(board);
     for (int i = 0; i < 9; i++)
     {
         for (int j = 0; j < 9; j++)

@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static void setZeroes(vector<vector<int>>& matrix)
+    void setZeroes(vector<vector<int>>& matrix)
     {
         if (matrix.size() <= 0 || matrix[0].size() <= 0)
         {
@@ -68,7 +68,7 @@ void Test()
 {
     Solution solution;
     vector<vector<int>> matrix = { { 1, 1, 1 },{ 1, 0, 1 },{ 1, 1, 1 } };
-    Solution::setZeroes(matrix);
+    solution.setZeroes(matrix);
     for (auto& line : matrix)
     {
         for (auto& num : line)

@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    int static myAtoi(string str)
+    int myAtoi(string str)
     {
         int number = 0, cur = 0, sign = 1;
         while (str[cur] == ' ')
@@ -45,10 +45,10 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::myAtoi("1212") << endl;
-    cout << Solution::myAtoi(" -1") << endl;
-    cout << Solution::myAtoi("1212121212121211212122") << endl;
-    cout << Solution::myAtoi(" -0012a42") << endl;
-    cout << Solution::myAtoi("+1") << endl;
+    cout << solution.myAtoi("1212") << endl;
+    cout << solution.myAtoi(" -1") << endl;
+    cout << solution.myAtoi("1212121212121211212122") << endl;
+    cout << solution.myAtoi(" -0012a42") << endl;
+    cout << solution.myAtoi("+1") << endl;
     return;
 }

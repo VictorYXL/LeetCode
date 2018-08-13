@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static int minPathSum(vector<vector<int>>& grid)
+    int minPathSum(vector<vector<int>>& grid)
     {
         vector<vector<int>> res = grid;
         if (grid.size() <= 0)
@@ -34,6 +34,6 @@ void Test()
 {
     Solution solution;
     vector<vector<int>> grid = { { 1, 3, 1 }, { 1, 5, 1 }, { 4, 2, 1 } };
-    std::cout << Solution::minPathSum(grid) << std::endl;
+    std::cout << solution.minPathSum(grid) << std::endl;
     return;
 }

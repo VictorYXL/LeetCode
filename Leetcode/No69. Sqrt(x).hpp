@@ -4,7 +4,7 @@ using namespace std;
 class Solution
 {
 public:
-    static int mySqrt(int x)
+    int mySqrt(int x)
     {
         long long left = 1, right = x / 2 + 1, m = (left + right) / 2;
         while (left <= right)
@@ -29,8 +29,8 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::mySqrt(0) << endl;
-    cout << Solution::mySqrt(4) << endl;
-    cout << Solution::mySqrt(2147395599) << endl;
+    cout << solution.mySqrt(0) << endl;
+    cout << solution.mySqrt(4) << endl;
+    cout << solution.mySqrt(2147395599) << endl;
     return;
 }

@@ -34,5 +34,5 @@ void Test()
     cout << solution.lengthOfLongestSubstring("aa") << endl;
     cout << solution.lengthOfLongestSubstring("aa") << endl;
     cout << solution.lengthOfLongestSubstring("c") << endl;
-    return 0;
+    return;
 }

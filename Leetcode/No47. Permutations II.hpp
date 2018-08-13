@@ -4,11 +4,11 @@
 using namespace std;
 class Solution {
 public:
-    static vector<vector<int>> permute(vector<int>& nums)
+    vector<vector<int>> permute(vector<int>& nums)
     {
         return subPermute(nums, 0);
     }
-    static vector<vector<int>> subPermute(vector<int>& nums, int index)
+    vector<vector<int>> subPermute(vector<int>& nums, int index)
     {
         vector<vector<int>> res, tmpRes;
         int t;
@@ -53,7 +53,7 @@ void Test()
     {
         1, 2, 3
     };
-    vector<vector<int>> res = Solution::permute(nums);
+    vector<vector<int>> res = solution.permute(nums);
     for (int i = 0; i < res.size(); i++)
     {
         for (int j = 0; j < nums.size(); j++)

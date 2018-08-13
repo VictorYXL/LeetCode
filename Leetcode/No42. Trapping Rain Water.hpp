@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int trap(vector<int>& height)
+    int trap(vector<int>& height)
     {
         if (height.size() <= 1)
         {
@@ -34,6 +34,6 @@ void Test()
 {
     Solution solution;
     vector<int> nums = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
-    cout << Solution::trap(nums) << endl;
+    cout << solution.trap(nums) << endl;
     return;
 }

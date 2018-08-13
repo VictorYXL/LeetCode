@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    bool static isMatch(string s, string p)
+    bool isMatch(string s, string p)
     {
         int i = 0, j = 0, k = 0;
         //"abbcdddef", "ab*c.*e."
@@ -75,6 +75,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::isMatch("", "c*c*") << endl;
+    cout << solution.isMatch("", "c*c*") << endl;
     return;
 }

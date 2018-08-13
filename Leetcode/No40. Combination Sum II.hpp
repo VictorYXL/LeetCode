@@ -40,7 +40,7 @@ bool operator == (vector<int>a, vector<int> b)
 
 class Solution {
 public:
-    static vector<vector<int>> combinationSum2(vector<int>& candidates, int target)
+    vector<vector<int>> combinationSum2(vector<int>& candidates, int target)
     {
         if (target == 0)
         {
@@ -53,7 +53,7 @@ public:
         res.erase(iter, res.end());
         return res;
     }
-    static vector<vector<int>> subCombinationSum(vector<int>& candidates, int target, int index)
+    vector<vector<int>> subCombinationSum(vector<int>& candidates, int target, int index)
     {
         vector<vector<int>> res;
         if (candidates.size() <= index || candidates[index] > target)
@@ -81,7 +81,7 @@ void Test()
 {
     Solution solution;
     vector<int> nums = { 10, 1, 2, 7, 6, 1, 5 };
-    vector<vector<int>> result = Solution::combinationSum2(nums, 8);
+    vector<vector<int>> result = solution.combinationSum2(nums, 8);
     for (auto p = result.begin(); p != result.end(); p++)
     {
 

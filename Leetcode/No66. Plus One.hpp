@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static vector<int> plusOne(vector<int>& digits)
+    vector<int> plusOne(vector<int>& digits)
     {
         int n = digits.size() - 1;
         while (n >= 0 && digits[n] == 9)
@@ -28,7 +28,7 @@ void Test()
 {
     Solution solution;
     vector<int> num = { 1, 2, 3 };
-    num = Solution::plusOne(num);
+    num = solution.plusOne(num);
     for (auto& p : num)
     {
         std::cout << p << " ";

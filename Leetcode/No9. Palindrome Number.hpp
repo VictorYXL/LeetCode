@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    bool static isPalindrome(int x)
+    bool isPalindrome(int x)
     {
         if (x < 0)
         {
@@ -25,9 +25,9 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::isPalindrome(1212) << endl;
-    cout << Solution::isPalindrome(1) << endl;
-    cout << Solution::isPalindrome(10) << endl;
-    cout << Solution::isPalindrome(1234321) << endl;
+    cout << solution.isPalindrome(1212) << endl;
+    cout << solution.isPalindrome(1) << endl;
+    cout << solution.isPalindrome(10) << endl;
+    cout << solution.isPalindrome(1234321) << endl;
     return;
 }

@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static string multiply(string num1, string num2)
+    string multiply(string num1, string num2)
     {
         int n;
         int *sum = new int[num1.length() + num2.length() + 1]();
@@ -39,6 +39,6 @@ void Test()
 {
     Solution solution;
     string nums1 = "2", nums2 = "3";
-    cout << Solution::multiply(nums1, nums2).c_str() << endl;
+    cout << solution.multiply(nums1, nums2).c_str() << endl;
     return;
 }

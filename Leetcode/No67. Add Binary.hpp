@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static string addBinary(string a, string b)
+    string addBinary(string a, string b)
     {
         string c;
         int al = a.size() - 1, bl = b.size() - 1;
@@ -45,7 +45,7 @@ public:
 void Test()
 {
     Solution solution;
-    string res = Solution::addBinary("11", "1");
+    string res = solution.addBinary("11", "1");
     std::cout << res;
     return;
 }

@@ -12,7 +12,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode static * swapPairs(ListNode* head)
+    ListNode * swapPairs(ListNode* head)
     {
         ListNode *preNode = new ListNode(0), *middleNode, *list;
         preNode->next = head;
@@ -46,7 +46,7 @@ void Test()
     e.next = &f;
     f.next = &g;
     g.next = NULL;
-    ListNode *result = Solution::swapPairs(&a);
+    ListNode *result = solution.swapPairs(&a);
     while (result != NULL)
     {
         cout << result->val << " ";

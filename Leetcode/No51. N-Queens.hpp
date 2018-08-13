@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static vector<vector<string>> solveNQueens(int n)
+    vector<vector<string>> solveNQueens(int n)
     {
         vector<vector<string>> res;
         vector<string> cur;
@@ -21,7 +21,7 @@ public:
         return res;
     }
 private:
-    static bool isValid(vector<string>& cur, int row, int col, int n)
+    bool isValid(vector<string>& cur, int row, int col, int n)
     {
         int x, y;
         for (y = 0; y < n; y++)
@@ -45,7 +45,7 @@ private:
         }
         return true;
     }
-    static void solveNQueens(vector<vector<string>>& res, int row, int n, vector<string>& cur)
+    void solveNQueens(vector<vector<string>>& res, int row, int n, vector<string>& cur)
     {
 
         if (row == n)
@@ -68,7 +68,7 @@ private:
 void Test()
 {
     Solution solution;
-    auto res = Solution::solveNQueens(8);
+    auto res = solution.solveNQueens(8);
     for (auto& one_res : res)
     {
         for (auto& line : one_res)

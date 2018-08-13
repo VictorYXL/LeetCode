@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    static void sortColors(vector<int>& nums)
+    void sortColors(vector<int>& nums)
     {
         int begin = 0, end = nums.size() - 1, index = 0;
         while (index <= end)
@@ -33,7 +33,7 @@ void Test()
 {
     Solution solution;
     vector<int> nums = { 2 };
-    Solution::sortColors(nums);
+    solution.sortColors(nums);
     for (auto& num : nums)
     {
         cout << num << " ";

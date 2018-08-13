@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static bool canJump(vector<int>& nums)
+    bool canJump(vector<int>& nums)
     {
         if (nums.size() <= 0)
         {
@@ -24,6 +24,6 @@ void Test()
 {
     Solution solution;
     vector<int>num = { 1, 2, 3 };
-    cout << Solution::canJump(num) << endl;
+    cout << solution.canJump(num) << endl;
     return;
 }

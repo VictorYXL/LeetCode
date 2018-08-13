@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int longestValidParentheses(string s)
+    int longestValidParentheses(string s)
     {
         int* num = (int *)malloc(sizeof(int) * s.length());
         memset(num, 0, sizeof(int) * s.length());
@@ -66,9 +66,9 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::longestValidParentheses(")()") << endl;
-    cout << Solution::longestValidParentheses(")()()") << endl;
-    cout << Solution::longestValidParentheses(")()())") << endl;
-    cout << Solution::longestValidParentheses("()(())") << endl;
+    cout << solution.longestValidParentheses(")()") << endl;
+    cout << solution.longestValidParentheses(")()()") << endl;
+    cout << solution.longestValidParentheses(")()())") << endl;
+    cout << solution.longestValidParentheses("()(())") << endl;
     return;
 }

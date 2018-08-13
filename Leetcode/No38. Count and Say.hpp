@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static string countAndSay(int n)
+    string countAndSay(int n)
     {
         string str[2];
         int index, count;
@@ -39,7 +39,7 @@ void Test()
     Solution solution;
     for (int i = 0; i < 10; i++)
     {
-        cout << Solution::countAndSay(i) << endl;
+        cout << solution.countAndSay(i) << endl;
     }
     return;
 }

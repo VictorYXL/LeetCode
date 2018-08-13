@@ -7,7 +7,7 @@ using namespace std;
 class Solution
 {
 public:
-    int static romanToInt(string s)
+    int romanToInt(string s)
     {
         map<char, int> m =
         {
@@ -39,6 +39,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::romanToInt("CXCIX") << endl;
+    cout << solution.romanToInt("CXCIX") << endl;
     return;
 }

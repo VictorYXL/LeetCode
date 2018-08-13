@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    string static convert(string s, int numRows)
+    string convert(string s, int numRows)
     {
         if (numRows == 1)
         {
@@ -44,6 +44,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::convert("A", 1) << endl;
+    cout << solution.convert("A", 1) << endl;
     return;
 }

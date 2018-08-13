@@ -11,7 +11,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode static * removeNthFromEnd(ListNode* head, int n)
+    ListNode * removeNthFromEnd(ListNode* head, int n)
     {
         ListNode *newList = head;
         ListNode *fast = head, *slow = head;
@@ -46,7 +46,7 @@ void Test()
     c->next = d;
     d->next = e;
     e->next = NULL;
-    ListNode *newList = Solution::removeNthFromEnd(a, 2);
+    ListNode *newList = solution.removeNthFromEnd(a, 2);
     while (newList != NULL)
     {
         std::cout << newList->val << " ";

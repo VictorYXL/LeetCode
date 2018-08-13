@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static int minDistance(string word1, string word2)
+    int minDistance(string word1, string word2)
     {
         int **dis = new int*[word1.size() + 1], min = 0;
         for (int i = 0; i <= word1.size(); i++)
@@ -43,6 +43,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::minDistance("horse", "ros") << endl;
+    cout << solution.minDistance("horse", "ros") << endl;
     return;
 }

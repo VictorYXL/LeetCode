@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    string static longestPalindrome(std::string s)
+    string longestPalindrome(std::string s)
     {
         //pa[i][j] == true : pa[i ... j] is palindrom
         bool pa[1000][1000] = { false };
@@ -42,10 +42,10 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::longestPalindrome("a") << endl;
-    cout << Solution::longestPalindrome("ababa") << endl;
-    cout << Solution::longestPalindrome("aaaa") << endl;
-    cout << Solution::longestPalindrome("1aa1") << endl;
-    cout << Solution::longestPalindrome("1aaf") << endl;
+    cout << solution.longestPalindrome("a") << endl;
+    cout << solution.longestPalindrome("ababa") << endl;
+    cout << solution.longestPalindrome("aaaa") << endl;
+    cout << solution.longestPalindrome("1aa1") << endl;
+    cout << solution.longestPalindrome("1aaf") << endl;
     return;
 }

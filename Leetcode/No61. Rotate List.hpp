@@ -11,7 +11,7 @@ struct ListNode
 class Solution
 {
 public:
-    static ListNode* rotateRight(ListNode* head, int k)
+    ListNode* rotateRight(ListNode* head, int k)
     {
         if (head == NULL)
         {
@@ -51,7 +51,7 @@ void Test()
         s->next = r;
         s = r;
     }
-    head = Solution::rotateRight(head->next, 2);
+    head = solution.rotateRight(head->next, 2);
     while (head != NULL)
     {
         cout << head->val << endl;

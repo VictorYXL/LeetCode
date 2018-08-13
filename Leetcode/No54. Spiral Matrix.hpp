@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static vector<int> spiralOrder(vector<vector<int>>& matrix)
+    vector<int> spiralOrder(vector<vector<int>>& matrix)
     {
         vector<int> res;
         if (matrix.size() == 0 || matrix[0].size() == 0)
@@ -57,7 +57,7 @@ void Test()
     Solution solution;
     int numArray[] = { 1, 2, 3 };
     vector<vector<int>> nums{ { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
-    vector<int> resVec = Solution::spiralOrder(nums);
+    vector<int> resVec = solution.spiralOrder(nums);
     for (auto& res : resVec)
     {
         cout << res << " ";

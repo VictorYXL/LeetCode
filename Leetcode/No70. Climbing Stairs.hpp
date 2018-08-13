@@ -4,7 +4,7 @@ using namespace std;
 class Solution
 {
 public:
-    static int climbStairs(int n)
+    int climbStairs(int n)
     {
         if (n < 3)
         {
@@ -25,8 +25,8 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::climbStairs(2) << endl;
-    cout << Solution::climbStairs(3) << endl;
-    cout << Solution::climbStairs(5) << endl;
+    cout << solution.climbStairs(2) << endl;
+    cout << solution.climbStairs(3) << endl;
+    cout << solution.climbStairs(5) << endl;
     return;
 }

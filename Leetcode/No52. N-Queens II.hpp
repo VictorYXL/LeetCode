@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int totalNQueens(int n)
+    int totalNQueens(int n)
     {
         bool *col = new bool[n];
         bool *anti = new bool[2 * n - 1];
@@ -15,7 +15,7 @@ public:
 
         return solve(col, anti, main, 0, n);
     }
-    static int solve(bool* col, bool* anti, bool* main, int i, int n)
+    int solve(bool* col, bool* anti, bool* main, int i, int n)
     {
         int count = 0;
         if (i == n - 1)
@@ -44,7 +44,7 @@ public:
 void Test()
 {
     Solution solution;
-    int res = Solution::totalNQueens(4);
+    int res = solution.totalNQueens(4);
     printf("%d\n", res);
     return;
 }

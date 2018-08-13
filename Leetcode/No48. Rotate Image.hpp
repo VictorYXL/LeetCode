@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static void rotate(vector<vector<int>>& matrix)
+    void rotate(vector<vector<int>>& matrix)
     {
         int x, y, t1, t2;
         int n = matrix.size() - 1;
@@ -60,7 +60,7 @@ void Test()
         }
         cout << endl;
     }
-    Solution::rotate(nums);
+    solution.rotate(nums);
     for (int i = 0; i < nums.size(); i++)
     {
         for (int j = 0; j < nums.size(); j++)

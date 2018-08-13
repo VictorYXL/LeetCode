@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int firstMissingPositive(vector<int>& nums)
+    int firstMissingPositive(vector<int>& nums)
     {
         int n = nums.size(), i = 0, t;
         while (i < n)
@@ -35,6 +35,6 @@ void Test()
 {
     Solution solution;
     vector<int> nums = { 1, 1 };
-    cout << Solution::firstMissingPositive(nums) << endl;
+    cout << solution.firstMissingPositive(nums) << endl;
     return;
 }

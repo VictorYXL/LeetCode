@@ -4,12 +4,12 @@
 using namespace std;
 class Solution {
 public:
-    static bool isValidSudoku(vector<vector<char>>& board)
+    bool isValidSudoku(vector<vector<char>>& board)
     {
         vector<char> str;
         for (int i = 0; i < 9; i++)
         {
-            if (Solution::judge(board[i]) == false)
+            if (solution.judge(board[i]) == false)
             {
                 return false;
             }
@@ -21,7 +21,7 @@ public:
             {
                 str.push_back(board[j][i]);
             }
-            if (Solution::judge(str) == false)
+            if (solution.judge(str) == false)
             {
                 return false;
             }
@@ -38,14 +38,14 @@ public:
                         str.push_back(board[i * 3 + p][j * 3 + q]);
                     }
                 }
-                if (Solution::judge(str) == false)
+                if (solution.judge(str) == false)
                 {
                     return false;
                 }
             }
         }
     }
-    static bool judge(vector<char>str)
+    bool judge(vector<char>str)
     {
         bool visit[10];
         memset(visit, false, 10 * sizeof(bool));
@@ -90,6 +90,6 @@ void Test()
         }
         board.push_back(t);
     }
-    cout << Solution::isValidSudoku(board) << endl;
+    cout << solution.isValidSudoku(board) << endl;
     return;
 }

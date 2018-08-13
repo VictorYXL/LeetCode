@@ -13,7 +13,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode static * addTwoNumbers(ListNode* l1, ListNode* l2)
+    ListNode * addTwoNumbers(ListNode* l1, ListNode* l2)
     {
         ListNode *l3, *r, *p;
         int s, a = 0;
@@ -87,7 +87,7 @@ void Test()
     l21->next = l22;
 
     ListNode *result;
-    result = Solution::addTwoNumbers(l11, l21);
+    result = solution.addTwoNumbers(l11, l21);
     while (result != NULL)
     {
         cout << result->val << " ";

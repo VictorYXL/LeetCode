@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    bool static isValid(string s)
+    bool isValid(string s)
     {
         stack<char> rest;
         char p;
@@ -40,6 +40,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::isValid("{}{}{}");
+    cout << solution.isValid("{}{}{}");
     return;
 }

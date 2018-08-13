@@ -12,7 +12,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode static * mergeKLists(vector<ListNode*>& lists)
+    ListNode * mergeKLists(vector<ListNode*>& lists)
     {
         ListNode *newList = new ListNode(0), *head = newList;
         newList->next = NULL;
@@ -71,7 +71,7 @@ void Test()
     c2.next = NULL;
     vector<ListNode *> vl;
     vl.push_back(NULL);
-    ListNode *result = Solution::mergeKLists(vl);
+    ListNode *result = solution.mergeKLists(vl);
     while (result != NULL)
     {
         cout << result->val << " ";

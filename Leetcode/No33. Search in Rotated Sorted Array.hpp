@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int search(vector<int>& nums, int target)
+    int search(vector<int>& nums, int target)
     {
         int l = 0, r = nums.size() - 1, m;
         while (l <= r)
@@ -47,6 +47,6 @@ void Test()
     nums.push_back(4);
     nums.push_back(4);
     nums.push_back(4);
-    cout << Solution::search(nums, 4) << endl;
+    cout << solution.search(nums, 4) << endl;
     return;
 }

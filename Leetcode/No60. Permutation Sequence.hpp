@@ -7,7 +7,7 @@ using namespace std;
 class Solution
 {
 public:
-    static string getPermutation(int n, int k)
+    string getPermutation(int n, int k)
     {
         int num[10], p, t = n;
         string s;
@@ -32,6 +32,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::getPermutation(4, 9) << endl;
+    cout << solution.getPermutation(4, 9) << endl;
     return;
 }

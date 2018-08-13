@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid)
+    int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid)
     {
         int m = obstacleGrid.size(), n = obstacleGrid[0].size();
         int **count = new int*[m];
@@ -54,6 +54,6 @@ void Test()
 {
     Solution solution;
     vector<vector<int>> obstacleGrid = { { 1 } };
-    std::cout << Solution::uniquePathsWithObstacles(obstacleGrid) << std::endl;
+    std::cout << solution.uniquePathsWithObstacles(obstacleGrid) << std::endl;
     return;
 }

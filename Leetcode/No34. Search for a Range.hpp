@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static vector<int> searchRange(vector<int>& nums, int target)
+    vector<int> searchRange(vector<int>& nums, int target)
     {
         vector<int> range;
         if (nums.size() <= 0)
@@ -105,7 +105,7 @@ void Test()
     nums.push_back(8);
     nums.push_back(8);
     nums.push_back(10);
-    cout << Solution::searchRange(nums, 8)[0] << endl;
-    cout << Solution::searchRange(nums, 8)[1] << endl;
+    cout << solution.searchRange(nums, 8)[0] << endl;
+    cout << solution.searchRange(nums, 8)[1] << endl;
     return;
 }

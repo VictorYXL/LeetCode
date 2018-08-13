@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static vector<int> twoSum(vector<int>& nums, int target)
+    vector<int> twoSum(vector<int>& nums, int target)
     {
         vector<int> result;
         for (vector<int>::iterator p = nums.begin(); (p + 1) != nums.end(); p++)
@@ -25,7 +25,7 @@ void Test()
     Solution solution;
     int numArray[] = { 3, 2, 4 };
     vector<int> nums(numArray, numArray + 3);
-    vector<int> result = Solution::twoSum(nums, 6);
+    vector<int> result = solution.twoSum(nums, 6);
     cout << result.at(0) << " " << result.at(1) << endl;
     return;
 }

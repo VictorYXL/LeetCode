@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static void nextPermutation(vector<int>& nums)
+    void nextPermutation(vector<int>& nums)
     {
         int t;
         if (nums.size() <= 1)
@@ -53,7 +53,7 @@ void Test()
     nums.push_back(5);
     nums.push_back(3);
     nums.push_back(2);
-    Solution::nextPermutation(nums);
+    solution.nextPermutation(nums);
     for (auto i = nums.begin(); i != nums.end(); i++)
     {
         cout << *i << " ";

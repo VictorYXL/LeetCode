@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    string static intToRoman(int num)
+    string intToRoman(int num)
     {
         string thousand[4] = { "", "M", "MM", "MMM" };
         string hundred[10] = { "", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM" };
@@ -20,6 +20,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::intToRoman(2437) << endl;
+    cout << solution.intToRoman(2437) << endl;
     return;
 }

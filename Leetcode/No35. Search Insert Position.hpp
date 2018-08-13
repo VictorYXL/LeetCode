@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int searchInsert(vector<int>& nums, int target)
+    int searchInsert(vector<int>& nums, int target)
     {
         for (int i = 0; i < nums.size(); i++)
         {
@@ -26,7 +26,7 @@ void Test()
     nums.push_back(7);
     nums.push_back(9);
     nums.push_back(11);
-    cout << Solution::searchInsert(nums, 7) << endl;
-    cout << Solution::searchInsert(nums, 8) << endl;
+    cout << solution.searchInsert(nums, 7) << endl;
+    cout << solution.searchInsert(nums, 8) << endl;
     return;
 }

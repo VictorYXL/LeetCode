@@ -8,7 +8,7 @@ using namespace std;
 class Solution
 {
 public:
-    double static findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2)
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2)
     {
         //Make sure nums2 is shorter than nums2
         if (nums1.size() > nums2.size())
@@ -107,6 +107,6 @@ void Test()
     nums2.push_back(3);
     nums2.push_back(5);
     nums2.push_back(6);
-    std::cout << Solution::findMedianSortedArrays(nums1, nums2);
+    std::cout << solution.findMedianSortedArrays(nums1, nums2);
     return;
 }

@@ -3,7 +3,7 @@
 class Solution
 {
 public:
-    static int uniquePaths(int m, int n)
+    int uniquePaths(int m, int n)
     {
         int **count = new int*[m];
         for (int i = 0; i < m; i++)
@@ -31,7 +31,7 @@ public:
 void Test()
 {
     Solution solution;
-    std::cout << Solution::uniquePaths(7, 3) << std::endl;
-    std::cout << Solution::uniquePaths(3, 7) << std::endl;
+    std::cout << solution.uniquePaths(7, 3) << std::endl;
+    std::cout << solution.uniquePaths(3, 7) << std::endl;
     return;
 }

@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static bool isMatch(string s, string p)
+    bool isMatch(string s, string p)
     {
         if (s.length() == 0)
         {
@@ -88,14 +88,14 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::isMatch("adceb", "*a*b") << endl;
-    cout << Solution::isMatch("babbbbaabababaabbababaababaabbaabababbaaababbababaaaaaabbabaaaabababbabbababbbaaaababbbabbbbbbbbbbaabbb", "b**bb**a**bba*b**a*bbb**aba***babbb*aa****aabb*bbb***a") << endl;
-    cout << Solution::isMatch("babbbbaabababaabbababaababaabbaabababbaaababbababaaaaaabbabaaaabababbabbababbbaaaababbbabbbbbbbbbbaabbb", "b**bb**a**bba*b**a*bbb**aba***babbb*aa****aabb*bbb***a") << endl;
-    cout << Solution::isMatch("aaabbbaabaaaaababaabaaabbabbbbbbbbaabababbabbbaaaaba", "a*******b") << endl;
-    cout << Solution::isMatch("acdcb", "a*c?b") << endl;
-    cout << Solution::isMatch("cb", "?a") << endl;
-    cout << Solution::isMatch("abcde", "*") << endl;
-    cout << Solution::isMatch("1", "") << endl;
-    cout << Solution::isMatch("aa", "*") << endl;
+    cout << solution.isMatch("adceb", "*a*b") << endl;
+    cout << solution.isMatch("babbbbaabababaabbababaababaabbaabababbaaababbababaaaaaabbabaaaabababbabbababbbaaaababbbabbbbbbbbbbaabbb", "b**bb**a**bba*b**a*bbb**aba***babbb*aa****aabb*bbb***a") << endl;
+    cout << solution.isMatch("babbbbaabababaabbababaababaabbaabababbaaababbababaaaaaabbabaaaabababbabbababbbaaaababbbabbbbbbbbbbaabbb", "b**bb**a**bba*b**a*bbb**aba***babbb*aa****aabb*bbb***a") << endl;
+    cout << solution.isMatch("aaabbbaabaaaaababaabaaabbabbbbbbbbaabababbabbbaaaaba", "a*******b") << endl;
+    cout << solution.isMatch("acdcb", "a*c?b") << endl;
+    cout << solution.isMatch("cb", "?a") << endl;
+    cout << solution.isMatch("abcde", "*") << endl;
+    cout << solution.isMatch("1", "") << endl;
+    cout << solution.isMatch("aa", "*") << endl;
     return;
 }

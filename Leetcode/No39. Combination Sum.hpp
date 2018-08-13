@@ -5,7 +5,7 @@
 using namespace std;
 class Solution {
 public:
-    static vector<vector<int>> combinationSum(vector<int>& candidates, int target)
+    vector<vector<int>> combinationSum(vector<int>& candidates, int target)
     {
         if (target == 0)
         {
@@ -14,7 +14,7 @@ public:
         sort(candidates.begin(), candidates.end());
         return subCombinationSum(candidates, target, 0);
     }
-    static vector<vector<int>> subCombinationSum(vector<int>& candidates, int target, int index)
+    vector<vector<int>> subCombinationSum(vector<int>& candidates, int target, int index)
     {
         vector<vector<int>> res;
         if (candidates.size() <= index || candidates[index] > target)
@@ -42,7 +42,7 @@ void Test()
 {
     Solution solution;
     vector<int> nums = { 2, 3, 6, 7 };
-    vector<vector<int>> result = Solution::combinationSum(nums, 6);
+    vector<vector<int>> result = solution.combinationSum(nums, 6);
     for (auto p = result.begin(); p != result.end(); p++)
     {
 

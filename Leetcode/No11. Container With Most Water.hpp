@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    int static maxArea(vector<int>& height)
+    int maxArea(vector<int>& height)
     {
         int maxArea = 0, left = 0, right = height.size() - 1;
         int area, shorterLine;
@@ -34,6 +34,6 @@ void Test()
     Solution solution;
     int heightArray[] = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
     std::vector<int> height(heightArray, heightArray + 9);
-    cout << Solution::maxArea(height) << endl;
+    cout << solution.maxArea(height) << endl;
     return;
 }

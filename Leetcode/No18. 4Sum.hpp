@@ -8,7 +8,7 @@ using namespace std;
 class Solution
 {
 public:
-    vector<vector<int>> static fourSum(vector<int>& nums, int target)
+    vector<vector<int>> fourSum(vector<int>& nums, int target)
     {
         vector<vector<int>> solution;
         if (nums.size() < 4)
@@ -71,7 +71,7 @@ void Test()
 {
     Solution solution;
     vector<int> num;
-    vector<vector<int>> res = Solution::fourSum(num, 0);
+    vector<vector<int>> res = solution.fourSum(num, 0);
     for (vector<vector<int>>::iterator i = res.begin(); i != res.end(); i++)
     {
         for (vector<int>::iterator j = i->begin(); j != i->end(); j++)

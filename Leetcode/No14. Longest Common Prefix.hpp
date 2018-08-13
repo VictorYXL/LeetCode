@@ -7,7 +7,7 @@ using namespace std;
 class Solution
 {
 public:
-    string static longestCommonPrefix(vector<string>& strs)
+    string longestCommonPrefix(vector<string>& strs)
     {
         if (strs.size() == 0)
         {
@@ -37,6 +37,6 @@ void Test()
     strs.push_back("abc2dde");
     strs.push_back("abcde");
     strs.push_back("abcderf");
-    cout << Solution::longestCommonPrefix(strs) << endl;
+    cout << solution.longestCommonPrefix(strs) << endl;
     return;
 }

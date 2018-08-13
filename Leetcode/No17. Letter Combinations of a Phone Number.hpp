@@ -7,7 +7,7 @@ using namespace std;
 class Solution
 {
 public:
-    vector<string> static letterCombinations(string digits)
+    vector<string> letterCombinations(string digits)
     {
         vector<string> result;
         vector<string> preResult;
@@ -38,7 +38,7 @@ public:
 void Test()
 {
     Solution solution;
-    vector<string> result = Solution::letterCombinations("2222");
+    vector<string> result = solution.letterCombinations("2222");
     for (auto i = result.begin(); i != result.end(); i++)
     {
         cout << *i << " ";

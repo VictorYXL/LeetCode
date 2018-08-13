@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int divide(int dividend, int divisor)
+    int divide(int dividend, int divisor)
     {
         const int int_max = 2147483647;
         const int int_min = (-2147483647 - 1);
@@ -61,7 +61,7 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::divide(-2147483648, -1) << endl;
-    cout << Solution::divide(-2147483648, 2) << endl;
+    cout << solution.divide(-2147483648, -1) << endl;
+    cout << solution.divide(-2147483648, 2) << endl;
     return;
 }

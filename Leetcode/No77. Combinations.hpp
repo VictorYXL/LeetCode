@@ -7,7 +7,7 @@ class Solution
 {
 
 public:
-    static vector<vector<int>> subCombine(int n, int k, int deep, vector<int> cur)
+    vector<vector<int>> subCombine(int n, int k, int deep, vector<int> cur)
     {
         vector<vector<int>> res;
         vector<vector<int>> subres;
@@ -25,7 +25,7 @@ public:
         }
         return res;
     }
-    static vector<vector<int>> combine(int n, int k)
+    vector<vector<int>> combine(int n, int k)
     {
         return subCombine(n, k, 0, {});
     }
@@ -33,7 +33,7 @@ public:
 void Test()
 {
     Solution solution;
-    vector<vector<int>> res = Solution::combine(4, 2);
+    vector<vector<int>> res = solution.combine(4, 2);
     for (auto& one : res)
     {
         for (auto& num : one)

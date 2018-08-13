@@ -11,7 +11,7 @@ struct Interval {
 class Solution
 {
 public:
-    static vector<Interval> insert(vector<Interval>& intervals, Interval newInterval)
+    vector<Interval> insert(vector<Interval>& intervals, Interval newInterval)
     {
         vector<Interval> res;
         if (intervals.size() <= 0)
@@ -50,7 +50,7 @@ void Test()
 {
     Solution solution;
     vector<Interval> intervals = { {1, 2}, { 3, 5 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
-    auto res = Solution::insert(intervals, { 4, 8 });
+    auto res = solution.insert(intervals, { 4, 8 });
     for (auto& interval : res)
     {
         cout << interval.start << ", " << interval.end << endl;

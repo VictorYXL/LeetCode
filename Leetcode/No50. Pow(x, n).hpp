@@ -3,7 +3,7 @@
 using namespace std;
 class Solution {
 public:
-    static double myPow(double x, int n)
+    double myPow(double x, int n)
     {
         double res = 1.0;
         long long p = n;
@@ -24,6 +24,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::myPow(2.0, -2147483648) << endl;
+    cout << solution.myPow(2.0, -2147483648) << endl;
     return;
 }

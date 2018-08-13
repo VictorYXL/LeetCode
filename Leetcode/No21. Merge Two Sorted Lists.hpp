@@ -12,7 +12,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode static * mergeTwoLists(ListNode* l1, ListNode* l2)
+    ListNode * mergeTwoLists(ListNode* l1, ListNode* l2)
     {
         ListNode * l3 = new ListNode(0), *h = l3;
 
@@ -55,7 +55,7 @@ void Test()
     c->next = NULL;
     d->next = e;
     e->next = NULL;
-    ListNode *newList = Solution::mergeTwoLists(NULL, d);
+    ListNode *newList = solution.mergeTwoLists(NULL, d);
     while (newList != NULL)
     {
         std::cout << newList->val << " ";

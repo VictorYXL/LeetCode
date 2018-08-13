@@ -5,7 +5,7 @@
 using namespace std;
 class Solution {
 public:
-    static vector<int> findSubstring(string s, vector<string>& words)
+    vector<int> findSubstring(string s, vector<string>& words)
     {
         map<string, int> count;
         map<string, int> curCount;
@@ -73,7 +73,7 @@ void Test()
     words.push_back("good");
     words.push_back("best");
     words.push_back("good");
-    vector<int> res = Solution::findSubstring(s, words);
+    vector<int> res = solution.findSubstring(s, words);
     for (auto i = res.begin(); i != res.end(); i++)
     {
         cout << *i << endl;

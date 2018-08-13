@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static string simplifyPath(string path)
+    string simplifyPath(string path)
     {
         string res, substr;
         vector<string> strList;
@@ -53,10 +53,10 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::simplifyPath("/./").c_str() << endl;
-    cout << Solution::simplifyPath("/../").c_str() << endl;
-    cout << Solution::simplifyPath("/home/").c_str() << endl;
-    cout << Solution::simplifyPath("/a/./b/../../c/").c_str() << endl;
-    cout << Solution::simplifyPath("/home//foo/").c_str() << endl;
+    cout << solution.simplifyPath("/./").c_str() << endl;
+    cout << solution.simplifyPath("/../").c_str() << endl;
+    cout << solution.simplifyPath("/home/").c_str() << endl;
+    cout << solution.simplifyPath("/a/./b/../../c/").c_str() << endl;
+    cout << solution.simplifyPath("/home//foo/").c_str() << endl;
     return;
 }

@@ -4,7 +4,7 @@
 using namespace std;
 class Solution {
 public:
-    static int strStr(string haystack, string needle)
+    int strStr(string haystack, string needle)
     {
         if (needle.size() == 0)
         {
@@ -24,6 +24,6 @@ void Test()
 {
     Solution solution;
     string haystack = "hello", needle = "ll";
-    cout << Solution::strStr(haystack, needle);
+    cout << solution.strStr(haystack, needle);
     return;
 }

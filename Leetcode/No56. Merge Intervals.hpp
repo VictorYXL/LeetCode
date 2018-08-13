@@ -16,7 +16,7 @@ bool func(Interval a, Interval b)
 class Solution
 {
 public:
-    static vector<Interval> merge(vector<Interval>& intervals)
+    vector<Interval> merge(vector<Interval>& intervals)
     {
         vector<Interval> res;
         std::sort(intervals.begin(), intervals.end(), func);
@@ -40,7 +40,7 @@ void Test()
 {
     Solution solution;
     vector<Interval> intervals = { {2,3 }, { 4,5 }, { 6,7 }, { 8,9 }, { 1,10 } };
-    auto res = Solution::merge(intervals);
+    auto res = solution.merge(intervals);
     for (auto& interval : res)
     {
         cout << interval.start << ", " << interval.end << endl;

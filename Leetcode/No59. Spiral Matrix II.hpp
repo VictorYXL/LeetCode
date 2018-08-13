@@ -5,7 +5,7 @@ using namespace std;
 class Solution
 {
 public:
-    static vector<vector<int>> generateMatrix(int n)
+    vector<vector<int>> generateMatrix(int n)
     {
         vector<vector<int>> res(n, vector<int>(n, 0));
         int rowBegin = 0, rowEnd = n - 1, colBegin = 0, colEnd = n - 1;
@@ -44,7 +44,7 @@ public:
 void Test()
 {
     Solution solution;
-    auto res = Solution::generateMatrix(4);
+    auto res = solution.generateMatrix(4);
     for (auto& line : res)
     {
         for (auto& num : line)

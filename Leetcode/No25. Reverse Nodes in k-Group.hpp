@@ -12,7 +12,7 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode static * reverseKGroup(ListNode* head, int k)
+    ListNode * reverseKGroup(ListNode* head, int k)
     {
 
         ListNode *preNode = new ListNode(0), *list, *r, *p;
@@ -75,7 +75,7 @@ void Test()
     g.next = &h;
     h.next = &i;
     i.next = NULL;
-    ListNode *result = Solution::reverseKGroup(NULL, 1);
+    ListNode *result = solution.reverseKGroup(NULL, 1);
     while (result != NULL)
     {
         cout << result->val << " ";

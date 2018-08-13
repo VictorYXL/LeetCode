@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    int static reverse(int x)
+    int reverse(int x)
     {
         long long newX = 0;
         while (x != 0)
@@ -25,6 +25,6 @@ public:
 void Test()
 {
     Solution solution;
-    cout << Solution::reverse(1534236469) << endl;
+    cout << solution.reverse(1534236469) << endl;
     return;
 }

@@ -197,6 +197,7 @@
     <ClInclude Include="No76. Minimum Window Substring.hpp" />
     <ClInclude Include="No77. Combinations.hpp" />
     <ClInclude Include="No78. Subsets.hpp" />
+    <ClInclude Include="No79. Word Search.hpp" />
     <ClInclude Include="No8. String to Integer (atoi).hpp" />
     <ClInclude Include="No9. Palindrome Number.hpp" />
   </ItemGroup>
