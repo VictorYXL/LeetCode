@@ -193,6 +193,9 @@
     <ClInclude Include="No71. Simplify Path.hpp" />
     <ClInclude Include="No72. Edit Distance.hpp" />
     <ClInclude Include="No74. Search a 2D Matrix.hpp" />
+    <ClInclude Include="No75. Sort Colors.hpp" />
+    <ClInclude Include="No76. Minimum Window Substring.hpp" />
+    <ClInclude Include="No77. Combinations.hpp" />
     <ClInclude Include="No8. String to Integer (atoi).hpp" />
     <ClInclude Include="No9. Palindrome Number.hpp" />
   </ItemGroup>
