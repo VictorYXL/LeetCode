@@ -31,6 +31,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums = { 2 };
     Solution::sortColors(nums);
     for (auto& num : nums)

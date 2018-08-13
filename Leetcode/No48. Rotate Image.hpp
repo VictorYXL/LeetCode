@@ -40,6 +40,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<vector<int>> nums;
     for (int i = 0; i < 1; i++)
     {

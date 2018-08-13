@@ -22,6 +22,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int>num = { 1, 2, 3 };
     cout << Solution::canJump(num) << endl;
     return;

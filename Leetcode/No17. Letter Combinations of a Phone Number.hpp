@@ -37,7 +37,7 @@ public:
 };
 void Test()
 {
-    //vector<string> result = Solution::letterCombinations("23");
+    Solution solution;
     vector<string> result = Solution::letterCombinations("2222");
     for (auto i = result.begin(); i != result.end(); i++)
     {

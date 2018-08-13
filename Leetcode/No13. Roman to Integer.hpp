@@ -38,6 +38,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::romanToInt("CXCIX") << endl;
     return;
 }

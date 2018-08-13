@@ -33,6 +33,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums = { 1, 1 };
     cout << Solution::firstMissingPositive(nums) << endl;
     return;

@@ -57,6 +57,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<string> words = { "Science", "is", "what", "we", "understand", "well", "enough", "to", "explain",
         "to", "a", "computer.", "Art", "is", "everything", "else", "we", "do" };
     vector<string> res = Solution::fullJustify(words, 20);

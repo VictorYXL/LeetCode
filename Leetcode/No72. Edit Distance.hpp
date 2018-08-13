@@ -42,6 +42,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::minDistance("horse", "ros") << endl;
     return;
 }

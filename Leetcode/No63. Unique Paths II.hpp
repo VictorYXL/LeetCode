@@ -52,7 +52,8 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<vector<int>> obstacleGrid = { { 1 } };
     std::cout << Solution::uniquePathsWithObstacles(obstacleGrid) << std::endl;
-    return 0;
+    return;
 }

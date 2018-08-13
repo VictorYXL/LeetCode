@@ -50,6 +50,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     string res = Solution::minWindow("ab", "a");
     cout << res;
     return;

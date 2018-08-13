@@ -79,6 +79,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums = { 10, 1, 2, 7, 6, 1, 5 };
     vector<vector<int>> result = Solution::combinationSum2(nums, 8);
     for (auto p = result.begin(); p != result.end(); p++)

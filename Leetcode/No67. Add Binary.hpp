@@ -44,6 +44,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     string res = Solution::addBinary("11", "1");
     std::cout << res;
     return;

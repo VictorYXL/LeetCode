@@ -28,6 +28,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::mySqrt(0) << endl;
     cout << Solution::mySqrt(4) << endl;
     cout << Solution::mySqrt(2147395599) << endl;

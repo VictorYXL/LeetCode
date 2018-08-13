@@ -22,6 +22,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::lengthOfLastWord("Hello world") << endl;
     cout << Solution::lengthOfLastWord("I hate you") << endl;
     return;

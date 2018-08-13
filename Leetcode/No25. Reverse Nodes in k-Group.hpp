@@ -56,6 +56,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     ListNode a(1);
     ListNode b(2);
     ListNode c(3);

@@ -32,6 +32,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<vector<int>> res = Solution::combine(4, 2);
     for (auto& one : res)
     {

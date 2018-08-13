@@ -43,6 +43,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::convert("A", 1) << endl;
     return;
 }

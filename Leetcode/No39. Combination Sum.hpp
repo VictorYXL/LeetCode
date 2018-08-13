@@ -40,6 +40,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums = { 2, 3, 6, 7 };
     vector<vector<int>> result = Solution::combinationSum(nums, 6);
     for (auto p = result.begin(); p != result.end(); p++)

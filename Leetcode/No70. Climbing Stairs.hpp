@@ -24,6 +24,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::climbStairs(2) << endl;
     cout << Solution::climbStairs(3) << endl;
     cout << Solution::climbStairs(5) << endl;

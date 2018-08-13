@@ -30,6 +30,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<string> strs;
     strs.push_back("abcdeftgh");
     strs.push_back("abcdde");

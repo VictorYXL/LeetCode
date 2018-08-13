@@ -48,6 +48,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<Interval> intervals = { {1, 2}, { 3, 5 }, { 6, 7 }, { 8, 10 }, { 12, 16 } };
     auto res = Solution::insert(intervals, { 4, 8 });
     for (auto& interval : res)
@@ -55,5 +56,5 @@ void Test()
         cout << interval.start << ", " << interval.end << endl;
     }
 
-    return 0;
+    return;
 }

@@ -6,7 +6,7 @@ using namespace std;
 class Solution
 {
 public:
-    static vector<vector<int>> subsets(vector<int>& nums, int index, vector<int> cur)
+    vector<vector<int>> subsets(vector<int>& nums, int index, vector<int> cur)
     {
         if (index == nums.size())
         {
@@ -19,15 +19,16 @@ public:
         res.insert(res.end(), tmp.begin(), tmp.end());
         return res;
     }
-    static vector<vector<int>> subsets(vector<int>& nums)
+    vector<vector<int>> subsets(vector<int>& nums)
     {
         return subsets(nums, 0, {});
     }
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums = { 1, 2, 3 };
-    vector<vector<int>> res = Solution::subsets(nums);
+    vector<vector<int>> res = solution.subsets(nums);
     for (auto& one : res)
     {
         for (auto& num : one)

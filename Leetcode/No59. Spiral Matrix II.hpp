@@ -43,6 +43,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     auto res = Solution::generateMatrix(4);
     for (auto& line : res)
     {

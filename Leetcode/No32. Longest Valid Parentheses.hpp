@@ -65,9 +65,10 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::longestValidParentheses(")()") << endl;
     cout << Solution::longestValidParentheses(")()()") << endl;
     cout << Solution::longestValidParentheses(")()())") << endl;
     cout << Solution::longestValidParentheses("()(())") << endl;
-    return 0;
+    return;
 }

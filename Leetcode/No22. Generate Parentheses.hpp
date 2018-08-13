@@ -49,6 +49,7 @@ private:
 };
 void Test()
 {
+    Solution solution;
     vector<string> result = Solution::generateParenthesis(3);
     for (auto p = result.begin(); p != result.end(); p++)
     {

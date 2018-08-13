@@ -22,6 +22,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     string haystack = "hello", needle = "ll";
     cout << Solution::strStr(haystack, needle);
     return;

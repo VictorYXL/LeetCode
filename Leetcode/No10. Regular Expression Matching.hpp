@@ -74,6 +74,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::isMatch("", "c*c*") << endl;
     return;
 }

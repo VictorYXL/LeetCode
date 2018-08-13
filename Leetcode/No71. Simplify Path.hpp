@@ -52,6 +52,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::simplifyPath("/./").c_str() << endl;
     cout << Solution::simplifyPath("/../").c_str() << endl;
     cout << Solution::simplifyPath("/home/").c_str() << endl;

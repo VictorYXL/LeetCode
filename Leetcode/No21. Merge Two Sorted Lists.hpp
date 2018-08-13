@@ -44,6 +44,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     ListNode *a = new ListNode(1);
     ListNode *b = new ListNode(7);
     ListNode *c = new ListNode(10);

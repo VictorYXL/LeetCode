@@ -22,6 +22,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     int numArray[] = { 3, 2, 4 };
     vector<int> nums(numArray, numArray + 3);
     vector<int> result = Solution::twoSum(nums, 6);

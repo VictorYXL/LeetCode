@@ -19,6 +19,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::intToRoman(2437) << endl;
     return;
 }

@@ -40,6 +40,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     ListNode *head, *s, *r;
     int num[] = { 1 }, num_count = 1;
     head = new ListNode(0);
@@ -57,5 +58,5 @@ void Test()
         head = head->next;
     }
 
-    return 0;
+    return;
 }

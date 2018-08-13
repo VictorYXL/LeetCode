@@ -35,6 +35,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums =
     {
         1, 2, 3

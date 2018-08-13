@@ -41,6 +41,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::longestPalindrome("a") << endl;
     cout << Solution::longestPalindrome("ababa") << endl;
     cout << Solution::longestPalindrome("aaaa") << endl;

@@ -23,6 +23,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::myPow(2.0, -2147483648) << endl;
     return;
 }

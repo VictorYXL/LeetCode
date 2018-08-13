@@ -26,6 +26,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> num = { 1, 2, 3 };
     num = Solution::plusOne(num);
     for (auto& p : num)

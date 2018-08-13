@@ -66,6 +66,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     string s = "wordgoodgoodgoodbestword";
     vector<string> words;
     words.push_back("word");

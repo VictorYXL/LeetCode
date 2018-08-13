@@ -74,6 +74,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     //342 + 665
     ListNode *l11 = new ListNode(1);
     ListNode *l12 = new ListNode(8);

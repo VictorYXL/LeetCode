@@ -24,6 +24,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::isPalindrome(1212) << endl;
     cout << Solution::isPalindrome(1) << endl;
     cout << Solution::isPalindrome(10) << endl;

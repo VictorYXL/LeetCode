@@ -60,6 +60,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::divide(-2147483648, -1) << endl;
     cout << Solution::divide(-2147483648, 2) << endl;
     return;

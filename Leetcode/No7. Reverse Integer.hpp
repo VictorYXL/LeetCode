@@ -24,6 +24,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::reverse(1534236469) << endl;
     return;
 }

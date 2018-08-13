@@ -67,10 +67,11 @@ private:
 };
 void Test()
 {
+    Solution solution;
     auto res = Solution::solveNQueens(8);
-    for (auto& solution : res)
+    for (auto& one_res : res)
     {
-        for (auto& line : solution)
+        for (auto& line : one_res)
         {
             printf("%s\n", line.c_str());
         }

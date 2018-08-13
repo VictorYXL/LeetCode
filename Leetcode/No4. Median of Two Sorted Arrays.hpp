@@ -99,6 +99,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums1 = { 4 }, nums2 = { 1, 2, 3, 5, 6 };
     nums1.push_back(4);
     nums2.push_back(1);

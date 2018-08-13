@@ -69,9 +69,10 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> num;
-    vector<vector<int>> solution = Solution::fourSum(num, 0);
-    for (vector<vector<int>>::iterator i = solution.begin(); i != solution.end(); i++)
+    vector<vector<int>> res = Solution::fourSum(num, 0);
+    for (vector<vector<int>>::iterator i = res.begin(); i != res.end(); i++)
     {
         for (vector<int>::iterator j = i->begin(); j != i->end(); j++)
         {

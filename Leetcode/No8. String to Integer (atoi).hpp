@@ -44,6 +44,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::myAtoi("1212") << endl;
     cout << Solution::myAtoi(" -1") << endl;
     cout << Solution::myAtoi("1212121212121211212122") << endl;

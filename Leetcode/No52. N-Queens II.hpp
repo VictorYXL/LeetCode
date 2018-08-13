@@ -15,7 +15,7 @@ public:
 
         return solve(col, anti, main, 0, n);
     }
-    static int solve(bool* col, bool* anti, bool* main, int i, int n);
+    static int solve(bool* col, bool* anti, bool* main, int i, int n)
     {
         int count = 0;
         if (i == n - 1)
@@ -43,6 +43,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     int res = Solution::totalNQueens(4);
     printf("%d\n", res);
     return;

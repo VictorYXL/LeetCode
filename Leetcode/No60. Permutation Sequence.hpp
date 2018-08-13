@@ -31,6 +31,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::getPermutation(4, 9) << endl;
     return;
 }

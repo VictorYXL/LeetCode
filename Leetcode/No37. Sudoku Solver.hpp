@@ -71,6 +71,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<vector<char>> board;
     char charBoard[9][9] =
 

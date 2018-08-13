@@ -1,13 +1,12 @@
 #pragma once
-#include <vector>
-#include <algorithm>
+#include <iostream>
 #include <map>
+#include <algorithm>
 using namespace std;
-
 class Solution
 {
 public:
-    int static lengthOfLongestSubstring(string s)
+    int lengthOfLongestSubstring(string s)
     {
         //charLocation reocrd the last location of each char
         map<char, int> charLocation;
@@ -27,12 +26,13 @@ public:
 };
 void Test()
 {
-    cout << Solution::lengthOfLongestSubstring("abcabcbb") << endl;
-    cout << Solution::lengthOfLongestSubstring("bbbbb") << endl;
-    cout << Solution::lengthOfLongestSubstring("pwwkew") << endl;
-    cout << Solution::lengthOfLongestSubstring("cd") << endl;
-    cout << Solution::lengthOfLongestSubstring("aa") << endl;
-    cout << Solution::lengthOfLongestSubstring("aa") << endl;
-    cout << Solution::lengthOfLongestSubstring("c") << endl;
+    Solution solution;
+    cout << solution.lengthOfLongestSubstring("abcabcbb") << endl;
+    cout << solution.lengthOfLongestSubstring("bbbbb") << endl;
+    cout << solution.lengthOfLongestSubstring("pwwkew") << endl;
+    cout << solution.lengthOfLongestSubstring("cd") << endl;
+    cout << solution.lengthOfLongestSubstring("aa") << endl;
+    cout << solution.lengthOfLongestSubstring("aa") << endl;
+    cout << solution.lengthOfLongestSubstring("c") << endl;
     return 0;
 }

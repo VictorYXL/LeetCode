@@ -39,6 +39,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     cout << Solution::isValid("{}{}{}");
     return;
 }

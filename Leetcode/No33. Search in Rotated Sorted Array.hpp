@@ -42,6 +42,7 @@ public:
 };
 void Test()
 {
+    Solution solution;
     vector<int> nums;
     nums.push_back(4);
     nums.push_back(4);
