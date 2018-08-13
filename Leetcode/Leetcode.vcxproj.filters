@@ -234,10 +234,10 @@
     <ClInclude Include="No75. Sort Colors.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="No76. Minimum Window Substring.hpp">
+    <ClInclude Include="No77. Combinations.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="No77. Combinations.hpp">
+    <ClInclude Include="No76. Minimum Window Substring.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
