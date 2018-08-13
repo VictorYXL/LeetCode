@@ -240,6 +240,9 @@
     <ClInclude Include="No76. Minimum Window Substring.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="No78. Subsets.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
