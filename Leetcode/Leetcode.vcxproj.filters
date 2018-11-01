@@ -246,6 +246,9 @@
     <ClInclude Include="No79. Word Search.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="No80. Remove Duplicates from Sorted Array II.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
